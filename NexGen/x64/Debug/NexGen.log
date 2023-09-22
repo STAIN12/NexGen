@@ -1,0 +1,120 @@
+﻿  Application.cpp
+C:\Users\chatw\NexGen\NexGen\src\Application.cpp(8,1): error C2447: '{': missing function header (old-style formal list?)
+  AssetManager.cpp
+  EngineCore.cpp
+  InputManager.cpp
+C:\Users\chatw\NexGen\NexGen\src\InputManager.cpp(67,46): error C2015: too many characters in constant
+C:\Users\chatw\NexGen\NexGen\src\InputManager.cpp(68,46): error C2015: too many characters in constant
+C:\Users\chatw\NexGen\NexGen\src\InputManager.cpp(86,54): error C2838: 'Quit': illegal qualified name in member declaration
+C:\Users\chatw\NexGen\NexGen\src\InputManager.cpp(86,54): error C2065: 'Quit': undeclared identifier
+  PhyicsEngine.cpp
+C:\Users\chatw\NexGen\NexGen\src\PhyicsEngine.cpp(26,27): error C2653: 'glm': is not a class or namespace name
+C:\Users\chatw\NexGen\NexGen\src\PhyicsEngine.cpp(26,36): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\chatw\NexGen\NexGen\src\PhyicsEngine.cpp(26,36): error C2143: syntax error: missing ',' before '&'
+C:\Users\chatw\NexGen\NexGen\src\PhyicsEngine.cpp(64,27): error C2665: 'std::vector<RigidBody,std::allocator<RigidBody>>::push_back': no overloaded function could convert all the argument types
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\vector(876,23): message : could be 'void std::vector<RigidBody,std::allocator<RigidBody>>::push_back(_Ty &&)'
+          with
+          [
+              _Ty=RigidBody
+          ]
+C:\Users\chatw\NexGen\NexGen\src\PhyicsEngine.cpp(64,27): message : 'void std::vector<RigidBody,std::allocator<RigidBody>>::push_back(_Ty &&)': cannot convert argument 1 from 'RigidBody (__cdecl *)(void)' to '_Ty &&'
+          with
+          [
+              _Ty=RigidBody
+          ]
+C:\Users\chatw\NexGen\NexGen\src\PhyicsEngine.cpp(64,38): message : Reason: cannot convert from 'overloaded-function' to '_Ty'
+          with
+          [
+              _Ty=RigidBody
+          ]
+C:\Users\chatw\NexGen\NexGen\src\PhyicsEngine.cpp(64,38): message : 'RigidBody::RigidBody': no overloaded function could convert all the argument types
+C:\Users\chatw\NexGen\NexGen\src\PhyicsEngine.cpp(31,1): message : could be 'RigidBody::RigidBody(RigidBody &&)'
+C:\Users\chatw\NexGen\NexGen\src\PhyicsEngine.cpp(64,38): message : 'RigidBody::RigidBody(RigidBody &&)': cannot convert argument 1 from 'RigidBody (__cdecl *)(void)' to 'RigidBody &&'
+C:\Users\chatw\NexGen\NexGen\src\PhyicsEngine.cpp(64,38): message : Reason: cannot convert from 'overloaded-function' to 'RigidBody'
+C:\Users\chatw\NexGen\NexGen\src\PhyicsEngine.cpp(64,38): message : Conversion requires a second user-defined-conversion operator or constructor
+C:\Users\chatw\NexGen\NexGen\src\PhyicsEngine.cpp(31,1): message : or       'RigidBody::RigidBody(const RigidBody &)'
+C:\Users\chatw\NexGen\NexGen\src\PhyicsEngine.cpp(64,38): message : 'RigidBody::RigidBody(const RigidBody &)': cannot convert argument 1 from 'RigidBody (__cdecl *)(void)' to 'const RigidBody &'
+C:\Users\chatw\NexGen\NexGen\src\PhyicsEngine.cpp(64,38): message : Reason: cannot convert from 'overloaded-function' to 'const RigidBody'
+C:\Users\chatw\NexGen\NexGen\src\PhyicsEngine.cpp(64,38): message : Conversion requires a second user-defined-conversion operator or constructor
+C:\Users\chatw\NexGen\NexGen\src\PhyicsEngine.cpp(64,38): message : while trying to match the argument list '(overloaded-function)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\vector(872,23): message : or       'void std::vector<RigidBody,std::allocator<RigidBody>>::push_back(const _Ty &)'
+          with
+          [
+              _Ty=RigidBody
+          ]
+C:\Users\chatw\NexGen\NexGen\src\PhyicsEngine.cpp(64,27): message : 'void std::vector<RigidBody,std::allocator<RigidBody>>::push_back(const _Ty &)': cannot convert argument 1 from 'RigidBody (__cdecl *)(void)' to 'const _Ty &'
+          with
+          [
+              _Ty=RigidBody
+          ]
+C:\Users\chatw\NexGen\NexGen\src\PhyicsEngine.cpp(64,38): message : Reason: cannot convert from 'overloaded-function' to 'const _Ty'
+          with
+          [
+              _Ty=RigidBody
+          ]
+C:\Users\chatw\NexGen\NexGen\src\PhyicsEngine.cpp(64,38): message : 'RigidBody::RigidBody': no overloaded function could convert all the argument types
+C:\Users\chatw\NexGen\NexGen\src\PhyicsEngine.cpp(31,1): message : could be 'RigidBody::RigidBody(RigidBody &&)'
+C:\Users\chatw\NexGen\NexGen\src\PhyicsEngine.cpp(64,38): message : 'RigidBody::RigidBody(RigidBody &&)': cannot convert argument 1 from 'RigidBody (__cdecl *)(void)' to 'RigidBody &&'
+C:\Users\chatw\NexGen\NexGen\src\PhyicsEngine.cpp(64,38): message : Reason: cannot convert from 'overloaded-function' to 'RigidBody'
+C:\Users\chatw\NexGen\NexGen\src\PhyicsEngine.cpp(64,38): message : Conversion requires a second user-defined-conversion operator or constructor
+C:\Users\chatw\NexGen\NexGen\src\PhyicsEngine.cpp(31,1): message : or       'RigidBody::RigidBody(const RigidBody &)'
+C:\Users\chatw\NexGen\NexGen\src\PhyicsEngine.cpp(64,38): message : 'RigidBody::RigidBody(const RigidBody &)': cannot convert argument 1 from 'RigidBody (__cdecl *)(void)' to 'const RigidBody &'
+C:\Users\chatw\NexGen\NexGen\src\PhyicsEngine.cpp(64,38): message : Reason: cannot convert from 'overloaded-function' to 'const RigidBody'
+C:\Users\chatw\NexGen\NexGen\src\PhyicsEngine.cpp(64,38): message : Conversion requires a second user-defined-conversion operator or constructor
+C:\Users\chatw\NexGen\NexGen\src\PhyicsEngine.cpp(64,38): message : while trying to match the argument list '(overloaded-function)'
+C:\Users\chatw\NexGen\NexGen\src\PhyicsEngine.cpp(64,27): message : while trying to match the argument list '(overloaded-function)'
+C:\Users\chatw\NexGen\NexGen\src\PhyicsEngine.cpp(65,27): error C2665: 'std::vector<RigidBody,std::allocator<RigidBody>>::push_back': no overloaded function could convert all the argument types
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\vector(876,23): message : could be 'void std::vector<RigidBody,std::allocator<RigidBody>>::push_back(_Ty &&)'
+          with
+          [
+              _Ty=RigidBody
+          ]
+C:\Users\chatw\NexGen\NexGen\src\PhyicsEngine.cpp(65,27): message : 'void std::vector<RigidBody,std::allocator<RigidBody>>::push_back(_Ty &&)': cannot convert argument 1 from 'RigidBody (__cdecl *)(void)' to '_Ty &&'
+          with
+          [
+              _Ty=RigidBody
+          ]
+C:\Users\chatw\NexGen\NexGen\src\PhyicsEngine.cpp(65,38): message : Reason: cannot convert from 'overloaded-function' to '_Ty'
+          with
+          [
+              _Ty=RigidBody
+          ]
+C:\Users\chatw\NexGen\NexGen\src\PhyicsEngine.cpp(65,38): message : 'RigidBody::RigidBody': no overloaded function could convert all the argument types
+C:\Users\chatw\NexGen\NexGen\src\PhyicsEngine.cpp(31,1): message : could be 'RigidBody::RigidBody(RigidBody &&)'
+C:\Users\chatw\NexGen\NexGen\src\PhyicsEngine.cpp(65,38): message : 'RigidBody::RigidBody(RigidBody &&)': cannot convert argument 1 from 'RigidBody (__cdecl *)(void)' to 'RigidBody &&'
+C:\Users\chatw\NexGen\NexGen\src\PhyicsEngine.cpp(65,38): message : Reason: cannot convert from 'overloaded-function' to 'RigidBody'
+C:\Users\chatw\NexGen\NexGen\src\PhyicsEngine.cpp(65,38): message : Conversion requires a second user-defined-conversion operator or constructor
+C:\Users\chatw\NexGen\NexGen\src\PhyicsEngine.cpp(31,1): message : or       'RigidBody::RigidBody(const RigidBody &)'
+C:\Users\chatw\NexGen\NexGen\src\PhyicsEngine.cpp(65,38): message : 'RigidBody::RigidBody(const RigidBody &)': cannot convert argument 1 from 'RigidBody (__cdecl *)(void)' to 'const RigidBody &'
+C:\Users\chatw\NexGen\NexGen\src\PhyicsEngine.cpp(65,38): message : Reason: cannot convert from 'overloaded-function' to 'const RigidBody'
+C:\Users\chatw\NexGen\NexGen\src\PhyicsEngine.cpp(65,38): message : Conversion requires a second user-defined-conversion operator or constructor
+C:\Users\chatw\NexGen\NexGen\src\PhyicsEngine.cpp(65,38): message : while trying to match the argument list '(overloaded-function)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\vector(872,23): message : or       'void std::vector<RigidBody,std::allocator<RigidBody>>::push_back(const _Ty &)'
+          with
+          [
+              _Ty=RigidBody
+          ]
+C:\Users\chatw\NexGen\NexGen\src\PhyicsEngine.cpp(65,27): message : 'void std::vector<RigidBody,std::allocator<RigidBody>>::push_back(const _Ty &)': cannot convert argument 1 from 'RigidBody (__cdecl *)(void)' to 'const _Ty &'
+          with
+          [
+              _Ty=RigidBody
+          ]
+C:\Users\chatw\NexGen\NexGen\src\PhyicsEngine.cpp(65,38): message : Reason: cannot convert from 'overloaded-function' to 'const _Ty'
+          with
+          [
+              _Ty=RigidBody
+          ]
+C:\Users\chatw\NexGen\NexGen\src\PhyicsEngine.cpp(65,38): message : 'RigidBody::RigidBody': no overloaded function could convert all the argument types
+C:\Users\chatw\NexGen\NexGen\src\PhyicsEngine.cpp(31,1): message : could be 'RigidBody::RigidBody(RigidBody &&)'
+C:\Users\chatw\NexGen\NexGen\src\PhyicsEngine.cpp(65,38): message : 'RigidBody::RigidBody(RigidBody &&)': cannot convert argument 1 from 'RigidBody (__cdecl *)(void)' to 'RigidBody &&'
+C:\Users\chatw\NexGen\NexGen\src\PhyicsEngine.cpp(65,38): message : Reason: cannot convert from 'overloaded-function' to 'RigidBody'
+C:\Users\chatw\NexGen\NexGen\src\PhyicsEngine.cpp(65,38): message : Conversion requires a second user-defined-conversion operator or constructor
+C:\Users\chatw\NexGen\NexGen\src\PhyicsEngine.cpp(31,1): message : or       'RigidBody::RigidBody(const RigidBody &)'
+C:\Users\chatw\NexGen\NexGen\src\PhyicsEngine.cpp(65,38): message : 'RigidBody::RigidBody(const RigidBody &)': cannot convert argument 1 from 'RigidBody (__cdecl *)(void)' to 'const RigidBody &'
+C:\Users\chatw\NexGen\NexGen\src\PhyicsEngine.cpp(65,38): message : Reason: cannot convert from 'overloaded-function' to 'const RigidBody'
+C:\Users\chatw\NexGen\NexGen\src\PhyicsEngine.cpp(65,38): message : Conversion requires a second user-defined-conversion operator or constructor
+C:\Users\chatw\NexGen\NexGen\src\PhyicsEngine.cpp(65,38): message : while trying to match the argument list '(overloaded-function)'
+C:\Users\chatw\NexGen\NexGen\src\PhyicsEngine.cpp(65,27): message : while trying to match the argument list '(overloaded-function)'
+C:\Users\chatw\NexGen\NexGen\src\PhyicsEngine.cpp(69,52): error C2059: syntax error: ';'
+  Renderer.cpp
+  Generating Code...
