@@ -1,8 +1,8 @@
 # NexGen
 
-NexGen Engine
+NexGen Game Engine
 
-Overview of the NexGen Engine:
+ **Overview of the NexGen Engine:**
 
 The NexGen Engine is a versatile and lightweight game engine designed to empower game developers of all levels to create stunning 2D and 3D games. It provides a flexible and efficient framework for rapid game development while maintaining a strong focus on performance and extensibility. Whether you're an indie developer or part of a larger studio, [Your Engine Name] offers the tools and features you need to bring your game ideas to life.
 
