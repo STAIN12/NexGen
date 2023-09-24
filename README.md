@@ -1,14 +1,19 @@
 # NexGen
+DCIT 314 (GAME ENGINE ARCHITECTURE)
 
-NexGen Game Engine
+ISSIFU INUSAH TAAJU ARAFEEN- 10829958
 
- **Overview of the NexGen Engine:**
+ABUBAKAR-SIDDIQ RAFIQ- 10680695
 
-The NexGen Engine is a versatile and lightweight game engine designed to empower game developers of all levels to create stunning 2D and 3D games. It provides a flexible and efficient framework for rapid game development while maintaining a strong focus on performance and extensibility. Whether you're an indie developer or part of a larger studio, [Your Engine Name] offers the tools and features you need to bring your game ideas to life.
+PROJECT NAME: NexGen Game Engine
+
+ **Overview of the NexGen Game Engine:**
+
+The NexGen Engine is a versatile and lightweight game engine designed to empower game developers of all levels to create stunning 3D games. It provides a flexible and efficient framework for rapid game development while maintaining a strong focus on performance and extensibility. Whether you're an individual developer or part of a larger studio, NEXGEN GAME ENGINE offers the tools and features you need to bring your game ideas to life.
 
 Target Platforms and Systems:
 
-NexGen Engine is designed to target a wide range of platforms and systems, making it suitable for various gaming experiences. The supported platforms and systems include:
+Basically, the NexGen Game Engine is designed to target a wide range of platforms and systems, making it suitable for various gaming experiences. The supported platforms and systems include:
 
 • Windows PC: Develop and deploy games for Windows desktop systems.
 • Linux: Create games for Linux-based platforms, expanding your reach to the Linux gaming community.
@@ -19,7 +24,7 @@ NexGen Engine is designed to target a wide range of platforms and systems, makin
 
 Key Features and Capabilities:
 
-NexGen Engine offers a comprehensive set of features and capabilities that empower game developers to create engaging and visually appealing games. Here are some of the key features:
+NexGen Game Engine offers a comprehensive set of features and capabilities that empower game developers to create engaging and visually appealing games. Here are some of the key features:
 
 Cross-Platform Support: Develop games for multiple platforms with a single codebase, saving time and effort in porting and adaptation.
 
@@ -47,7 +52,7 @@ Documentation and SDK: Provide comprehensive documentation and a software develo
 
 Community and Support: Foster a thriving developer community with forums, mailing lists, and support channels to exchange knowledge and seek assistance.
 
-Catreal Engine is committed to empowering developers and enabling them to bring their game ideas to life efficiently and with exceptional quality. Whether you're building a casual mobile game or an immersive PC experience.
+NexGen Engine is committed to empowering developers and enabling them to bring their game ideas to life efficiently and with exceptional quality. Whether you're building a casual mobile game or an immersive PC experience.
 
 System Requirements:
 
@@ -63,11 +68,11 @@ Please note that these are minimum requirements, and the engine's performance ma
 
 Installation Instructions:
 
-• Follow these steps to install your mini-game engine on your development machine:
+• Follow these steps to install the NexGen mini-game engine on your development machine:
 
 Download the Engine:
 
-• Visit the repository for your Catreal engine.
+• Visit the repository for the NexGen engine.
 • Locate the "Downloads" or "Releases" section.
 • Choose the appropriate installer for your operating system (Windows).
 
@@ -82,7 +87,7 @@ Installation Completion:
 • Once the installation is complete, you will have your mini-game engine installed on your machine.
 • Setting Up the Development Environment:
 
-• Setting up the development environment for your mini-game engine involves configuring your development tools and workspace. Here's how to get started:
+• Setting up the development environment for the mini-game engine involves configuring your development tools and workspace. Here's how to get started:
 
 Install Development Tools:
 
@@ -206,8 +211,3 @@ Use the engine's debugging tools to identify and fix issues. Optimize your code 
 Iterate and Refine:
 
 Continuously refine your game, adding more features, levels, and complexity as needed. Test and iterate on your game design.
-Step 5: Documentation and Support
-
-Documentation:
-
-Refer to the engine's documentation and SDK for more in-depth information on features, rendering techniques, and advanced game development topics.
